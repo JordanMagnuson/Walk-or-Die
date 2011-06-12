@@ -6,19 +6,21 @@ By Jordan Magnuson
 NecessaryGames.com
 ========================================================================
 
-------------------------------------------------------------------------
-CONTROLS
-------------------------------------------------------------------------
+Language:	AS3
 
-Everything you need to know is explained in-game.
+Libraries:	Flashpunk (flashpunk.net)
+
+Built in:	FlashDevelop (project file included)
+
+The source code for this game is completely free and open: use it
+in whatever way you'd like. If you find it helpful, or make anything
+particular with it, I'd love to hear about it! Send an email to
+jm.magnuson@gmail.com.
 
 
 ------------------------------------------------------------------------
 CREDITS
 ------------------------------------------------------------------------
-
-All sounds
-
 
 River sound
 License: Creative Commons Sampling Plus 1.0
@@ -32,9 +34,6 @@ Casual Encounter font
 License: Free
 Created by: Ann Anthropoy
 Obtained from: http://www.auntiepixelante.com/?p=241
-
-All other content in public domain, or created by myself (Jordan Magnuson)
-and released for use under the Creative Commons Attribution license
 
 Information about creative commons licenses can be found at:
 http://creativecommons.org/about/licenses/
