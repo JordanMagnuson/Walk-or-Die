@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprPlayerDying",
-    "path": "sprites/sprPlayerDying/sprPlayerDying.yy",
+    "name": "sprGravestone",
+    "path": "sprites/sprGravestone/sprGravestone.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,7 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPlayerDying",
+  "name": "oGravestone",
   "tags": [],
   "resourceType": "GMObject",
 }

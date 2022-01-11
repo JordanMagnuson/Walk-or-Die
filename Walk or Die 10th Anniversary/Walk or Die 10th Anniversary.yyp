@@ -5,7 +5,9 @@
     {"id":{"name":"oMyWorldController","path":"objects/oMyWorldController/oMyWorldController.yy",},"order":1,},
     {"id":{"name":"oPlayerDying","path":"objects/oPlayerDying/oPlayerDying.yy",},"order":3,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
+    {"id":{"name":"sprGravestone","path":"sprites/sprGravestone/sprGravestone.yy",},"order":3,},
     {"id":{"name":"sprPlayerDying","path":"sprites/sprPlayerDying/sprPlayerDying.yy",},"order":2,},
+    {"id":{"name":"oGravestone","path":"objects/oGravestone/oGravestone.yy",},"order":4,},
     {"id":{"name":"rmMyWorld","path":"rooms/rmMyWorld/rmMyWorld.yy",},"order":0,},
   ],
   "Options": [
