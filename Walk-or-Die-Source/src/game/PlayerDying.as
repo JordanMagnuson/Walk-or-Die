@@ -11,7 +11,7 @@ package game
 	
 	public class PlayerDying extends Entity
 	{
-		public const FADE_OUT_DURATION:Number = 5;		
+		public const FADE_OUT_DURATION:Number = 5;		//DONE
 		
 		public var graveStoneAlarm:Alarm;
 		public var fadeTween:ColorTween;
@@ -19,23 +19,23 @@ package game
 		/**
 		 * Player graphic
 		 */
-		[Embed(source='../../assets/player_dying.png')] private const PLAYER_DYING:Class;
+		[Embed(source='../../assets/player_dying.png')] private const PLAYER_DYING:Class; //DONE
 		public var sprPlayer:Spritemap = new Spritemap(PLAYER_DYING, 22, 17);		
 		
 		public function PlayerDying() 
 		{
 			// Graphic
-			sprPlayer.add("die", [0, 1, 2, 3, 4], 2, false);
+			sprPlayer.add("die", [0, 1, 2, 3, 4], 2, false);	//SECTUIB DONE
 			graphic = sprPlayer;
 			sprPlayer.play("die");
 			
-			// Hit box
+			// Hit box		//SECTION DONE
 			sprPlayer.originX = 0;
 			sprPlayer.originY = sprPlayer.height;
 			sprPlayer.x = 0;
 			sprPlayer.y = -sprPlayer.originY;	
 			
-			setHitbox(sprPlayer.width, sprPlayer.height, sprPlayer.originX, sprPlayer.originY);				
+			setHitbox(sprPlayer.width, sprPlayer.height, sprPlayer.originX, sprPlayer.originY); //DONE				
 			
 			// Gravestone alarm
 			graveStoneAlarm = new Alarm(5, fadeOut);
