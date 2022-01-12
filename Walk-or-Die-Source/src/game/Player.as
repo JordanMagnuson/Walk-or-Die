@@ -37,7 +37,7 @@ package game
 			// Graphic					//SECTION DONE
 			sprPlayer.add("stand", [0], 20, false);
 			animSpeed = Player.SPEED / 10;
-			sprPlayer.add("walk", [0, 1, 2, 3], animSpeed, true);
+			sprPlayer.add("walk", [0, 1, 2, 3], animSpeed, true);0
 			graphic = sprPlayer;
 			sprPlayer.play("stand");
 			

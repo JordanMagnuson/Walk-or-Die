@@ -25,7 +25,7 @@ package game
 		public function PlayerDying() 
 		{
 			// Graphic
-			sprPlayer.add("die", [0, 1, 2, 3, 4], 2, false);	//SECTUIB DONE
+			sprPlayer.add("die", [0, 1, 2, 3, 4], 2, false);	//SECTION DONE
 			graphic = sprPlayer;
 			sprPlayer.play("die");
 			
@@ -37,7 +37,7 @@ package game
 			
 			setHitbox(sprPlayer.width, sprPlayer.height, sprPlayer.originX, sprPlayer.originY); //DONE				
 			
-			// Gravestone alarm
+			// Gravestone alarm						//SUPER CONFUSED ON HOW THE CODE BELOW WORKS, EDITS WILL NEED TO BE DONE HERE
 			graveStoneAlarm = new Alarm(5, fadeOut);
 			addTween(graveStoneAlarm);
 			graveStoneAlarm.start();
@@ -55,7 +55,7 @@ package game
 		public function fadeOut():void
 		{
 			FP.world.add(new Gravestone);
-			fadeTween = new ColorTween(destroy);
+			fadeTween = new ColorTween(destroy);//WHEN THE CHARACTER HAS FADED AWAY, DESTROY THE CHARACTER OBJECT??
 			addTween(fadeTween);		
 			fadeTween.tween(FADE_OUT_DURATION, Colors.WHITE, Colors.WHITE, 1, 0);			
 		}
